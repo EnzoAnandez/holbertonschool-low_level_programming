@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc -c 4-puts.c
+gcc -c $CFILE
 {
 puts("Programming is like building a multilingual puzzle");
 return 0;
