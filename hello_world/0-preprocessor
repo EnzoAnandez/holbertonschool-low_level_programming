@@ -1,2 +1,4 @@
 #!/bin/bash
 #include <stdio.h>
+
+gcc -E name_of_file -o interm
