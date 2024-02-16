@@ -3,11 +3,9 @@
 /**
  * main - Printf
  * pusheando
- * Return: Vuelta
+ * Return:vuelta
  */
-
-int main(void) 
-
+int main(void)
 {
 
 char charType;
