@@ -1,4 +1,11 @@
 #include<stdio.h>
+
+/**
+ * main - Printf
+ * pusheando
+ * Return: Vuelta
+ */
+
 int main(void) {
 char charType;
 int intType;
