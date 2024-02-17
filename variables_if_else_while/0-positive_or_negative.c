@@ -10,13 +10,16 @@ int main(void)
 */
 int main(void)
 {
-	int n = %d\n
+	int n;
+
+	n = rand() % 21 - 10;
 		if (n > 0)
 			printf("is positive\n");
-	if (n = 0)
+		else if (n = 0)
 		printf("is zero\n");
-	if (n < 0)
-		printf("is negative\");
+		else (n < 0);
+		printf("is negative\n");
 	
 	return (0);
+}
 }
