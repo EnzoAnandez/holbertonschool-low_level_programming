@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 #include <time.h>
 
 int main(void)
@@ -16,7 +16,8 @@ int main(void)
 	srand(time(NULL));
 
 	n = rand() % 21 - 10;
-		if (n > 0)
+		
+	if (n > 0)
 		{
 			printf("is positive\n");
 		}
@@ -24,7 +25,7 @@ int main(void)
 			{
 				printf("is zero\n");
 			}
-				else (n < 0);
+				else  if (n < 0);
 				{
 				printf("is negative\n");
 				}
