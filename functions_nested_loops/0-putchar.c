@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
 * main - sape
@@ -6,17 +7,9 @@
 * Return: vuelta
 */
 
-int main(void) 
-{
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+int main(void) {
+	char str[] = "_putchar\n";
+	write(1, str, sizeof(str) - 1);
 
-    return 0;
+return 0;
 }
