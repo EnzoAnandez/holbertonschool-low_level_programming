@@ -3,8 +3,7 @@
 
 /**
  * main - jaj
- * @c: The character to print
- *
+ * pusheando
  * Return: On success 1.
  */
 
