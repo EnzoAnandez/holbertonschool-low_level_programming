@@ -1,15 +1,20 @@
 #include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
-* main - sape
-* pushea
-* Return: vuelta
-*/
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 
-int main(void) {
-	char str[] = "_putchar\n";
-	write(1, str, sizeof(str) - 1);
-
-return 0;
+int main(void)
+{
+	char n[] = "_putchar\n";
+	int i;	
+		
+	for (i = 0 ; n[i] == '\0'; i++)
+	_putchar(n[i]);
+return (0);
 }
