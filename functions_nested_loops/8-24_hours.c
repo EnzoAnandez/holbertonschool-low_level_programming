@@ -6,14 +6,16 @@
 
 void jack_bauer(void)
 {
-	int e = 1439;
-	int n = e / 60;
-	int z = e % 60;
+	int n, e;
 
+	for (n = 0; n < 24; e++)
+	for (e = 0; e < 60; e++)
+	{
 	_putchar((n / 10) + '0');
 	_putchar((n % 10) + '0');
 	_putchar(':');
-	_putchar((z / 10) + '0');
-	_putchar((z % 10) + '0');
+	_putchar((e / 10) + '0');
+	_putchar((e % 10) + '0');
+	_putchar('\n');
+	}
 }
-
