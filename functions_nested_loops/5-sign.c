@@ -16,7 +16,6 @@ int print_sign(int n)
 	{
 		e = 43;
 		write(1, &e, 1);
-		write(1, "\n", 1);
 		return (1);
 	}
 	if (n == 0)
