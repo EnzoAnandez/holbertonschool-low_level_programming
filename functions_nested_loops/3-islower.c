@@ -11,22 +11,26 @@ int _islower(int c);
 
 int main(void)
 {
-	char test_char = 'n';
+    char test_char = 'n';
 
-	_islower(test_char);
+    int i = _islower(test_char);
 
-	return (0);
+    printf("%d\n", i);
+
+    return (0);
 }
+
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-	{
+    if (c >= 'a' && c <= 'z')
+    {
 		putchar('1');
-	}
-	else
-	{
+    }
+    else
+    {
 		putchar('0');
     }
-		putchar('\n');
+
+    putchar('\n');
     return (c >= 'a' && c <= 'z');
 }
