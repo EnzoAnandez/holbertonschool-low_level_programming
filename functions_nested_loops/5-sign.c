@@ -14,21 +14,21 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		e = '+';
+		e = 43;
 		write(1, &e, 1);
 		write(1, "\n", 1);
 		return (1);
 	}
 	if (n == 0)
 	{
-		e = '0';
+		e = 48;
 		write(1, &e, 1);
 		write(1, "\n", 1);
 		return (0);
 	}
 	if (n < 0)
 	{
-		e = '-';
+		e = 45;
 		write(1, &e, 1);
 		write(1, "\n", 1);
 		putchar('-');
