@@ -6,20 +6,12 @@
  * Return: zero
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-		char n[] = "abcdefghijklmnopqrstuvwxyz\n";
-		int i, j;
-		for (j = 0; j < 10; j++) {
-		for (i = 0 ; n[i] != '\0'; i++) {
-		_putchar(n[i]);
-		}
-	}
-}
+	char n[] = "abcdefghijklmnopqrstuvwxyz\n";
+	int i, j;
 
-int main(void) 
-{
-print_alphabet();
-
-return 0;
+	for (j = 0; j < 10; j++)
+		for (i = 0 ; n[i] != '\0'; i++)
+			_putchar(n[i]);
 }
