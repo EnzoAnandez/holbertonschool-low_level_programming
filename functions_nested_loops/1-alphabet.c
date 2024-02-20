@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - jaj
+ * print_alphabet - jaj
  * pusheando
  * Return: bicho
  */
