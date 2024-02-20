@@ -3,28 +3,14 @@
 
 /**
  * _islower - function that checks for lowercase character.
- * Return: zero
+ * @c - letter
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 
 int _islower(int c)
 {
-	char test_char = 'n';
-
-	int i = _islower(test_char);
-
-	printf("%d\n", i);
-
-	return (0);
-
-	if (c >= 'a' && c <= 'z')
-	{
-		putchar('1');
-	}
+	if (c >= 97 && c <=  122)
+	return (1);
 	else
-	{
-		putchar('0');
-	}
-
-	putchar('\n');
-	return (c >= 'a' && c <= 'z');
+		return (0);
 }
