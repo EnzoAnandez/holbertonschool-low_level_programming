@@ -6,7 +6,7 @@
 
 void jack_bauer(void)
 {
-	int e = 1440;
+	int e = 1439;
 	int n = e / 60;
 	int z = e % 60;
 
