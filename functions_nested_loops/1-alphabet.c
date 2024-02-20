@@ -1,12 +1,16 @@
 #include <stdio.h>
+#include "main.h"
 
-int main()
+/**
+ * main - jaj
+ * pusheando
+ * Return: bicho
+ */
+
+void print_alphabet(void)
 {
-	int n;
-	for(int n = 'a'; n <= 'a'; n++)
-	{
-        n = tolower(n);
-        putchar(n);
-	}
-	return 0;
+	char n[] = "abcdefghijklmnopqrstuvwxyz\n";
+	int i;
+for (i = 0 ; n[i] != '\0'; i++)
+	_putchar(n[i]);
 }
