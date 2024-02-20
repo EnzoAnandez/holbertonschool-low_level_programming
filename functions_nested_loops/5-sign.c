@@ -22,15 +22,12 @@ int print_sign(int n)
 	{
 		e = 48;
 		write(1, &e, 1);
-		write(1, "\n", 1);
 		return (0);
 	}
 	if (n < 0)
 	{
 		e = 45;
 		write(1, &e, 1);
-		write(1, "\n", 1);
-		putchar('-');
 		return (-1);
 	}
 return (0);
