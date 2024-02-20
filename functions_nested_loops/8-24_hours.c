@@ -9,7 +9,7 @@ void jack_bauer(void)
 {
 	int n, e;
 
-	for (n = 0; n < 24; e++)
+	for (n = 0; n < 24; n++)
 		for (e = 0; e < 60; e++)
 	{
 		_putchar((n / 10) + '0');
