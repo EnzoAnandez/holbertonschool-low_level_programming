@@ -7,20 +7,19 @@
  */
 
 void print_to_98(int n)
-{
-	if (n > 98)
 	{
-		int e;
-		for (e = n; e < 98; e++)
-			printf("%d, ", e);
-	}
-	else if (n < 98)
-	{
-		int e;
+		if (n > 98)
+		{
+				int e;
+				for (e = n; e < 98; e++)
+						printf("%d, ", e);
+		}
+		else if (n < 98)
+		{
+				int e;
 
-		for (e = n; e > 98; e--)
-			printf("%d, ", e);
+				for (e = n; e > 98; e--)
+						printf("%d, ", e);
+		}
+		printf("98\n");
 	}
-	
-	printf("98\n");
-}
