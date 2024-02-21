@@ -2,13 +2,15 @@
 
 /**
  * print_numbers - prints the numbers
+ * _putchar
  */
 void print_numbers(void)
 {
 		int i;
-			for (i = 0; i <= 9; i++)
-			{
-						_putchar(i + '0');
-			}
-				_putchar('\n');
+			
+		for (i = 0; i <= 9; i++)
+		{
+				_putchar(i + '0');
+		}
+		_putchar('\n');
 }
