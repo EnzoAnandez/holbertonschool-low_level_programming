@@ -2,8 +2,6 @@
 
 /**
  * print_rev - function that prints a string, in reverse.
- * @n: Variable 1.
- * @e: Variable 2.
  * @s: Variable pointer.
  */
 
