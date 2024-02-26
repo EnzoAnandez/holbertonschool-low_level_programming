@@ -10,5 +10,11 @@
 void _puts(char *str)
 
 {
-	char n[7] = {'s', 't', 'd', 'o', 'u', 't', '\0'};
+	int n;
+
+	for (n = 0; str[n] != '\0'; n++)
+	{
+		_putchar(str[n]);
+	}
+	_putchar('\n');
 }
