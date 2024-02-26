@@ -14,5 +14,4 @@ void rev_string(char *s)
 
 		for (e = n; e >= 0; e--)
 		{}
-		_putchar('\n');
 }
