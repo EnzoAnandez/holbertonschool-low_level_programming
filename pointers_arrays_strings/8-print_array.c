@@ -11,20 +11,14 @@ void print_array(int *a, int n)
 {
 	int e;
 
-	for (n = 0; a[n] < 5; n++)
+	for (e = 0; e < n; e++)
 	{
-		a[n] = n - 198;
-	}
+		prinrf("%d", a[e]);
 
-	for (e = 0; e < 5; e++)
-	{
-		printf("%d", a[e]);
-
-		if (e < 4)
+		if (e < n - 1)
 		{
 			printf(", ");
 		}
 	}
-
 	printf("\n");
 }
