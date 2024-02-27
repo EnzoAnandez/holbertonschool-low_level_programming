@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 
 	for (n = 0; a[n] < 5; n++)
 	{
-		a[n] = n + 100;
+		a[n] = n - 198;
 	}
 	for (e = 0; e < 5; e++)
 	{
