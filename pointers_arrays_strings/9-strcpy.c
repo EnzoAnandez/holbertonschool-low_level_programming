@@ -2,17 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strcpy - function that copies the string pointed to by src.
+ * *_strcpy - function that copies the string pointed to by src.
  * @dest: Pointer char.
  * @src: Pointer char 2.
+ * Return: return value pointer.
  */
-
-char *_strcpy(char *dest, char *src);
-
-int main(void)
-{
-	return (0);
-}
 
 char *_strcpy(char *dest, char *src)
 {
