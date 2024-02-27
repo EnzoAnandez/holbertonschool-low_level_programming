@@ -19,9 +19,13 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[e]);
 
-		if (e < 4)
+		if (e < 4 && a[e + 1] < 5)
 		{
 			printf(", ");
+		}
+		if (a[e + 1] < 5)
+		{
+		a[e] = e - 1;
 		}
 	}
 }
