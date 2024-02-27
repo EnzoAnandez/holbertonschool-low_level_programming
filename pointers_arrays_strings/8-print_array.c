@@ -15,8 +15,6 @@ void print_array(int *a, int n)
 	{
 		a[n] = n + 100;
 	}
-	if (n % 2 == 1)
-	{n = n + 1; }
 	for (e = 0; e < 5; e++)
 	{
 		printf("%d, ", a[e]);
