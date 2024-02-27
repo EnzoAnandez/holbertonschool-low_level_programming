@@ -15,4 +15,5 @@ void puts_half(char *str)
 		{
 		_putchar(str[e]);
 		}	
+		_putchar('\n');
 }
