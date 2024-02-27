@@ -20,6 +20,6 @@ void print_array(int *a, int n)
 	for (e = 0; e < 5; e++)
 	{
 		printf("%d, ", a[e]);
-		a[e] = n - 1;
+		a[n] = n - 1;
 	}
 }
