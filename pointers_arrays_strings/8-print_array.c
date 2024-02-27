@@ -11,11 +11,11 @@ void print_array(int *a, int n)
 {
 	int e;
 
-	for (n = 0; a[n] < 5; n++)
+	for (n = 0; a[n] <= 5; n++)
 	{
 		a[n] = n - 198;
 	}
-	for (e = 0; e <= 5; e++)
+	for (e = 0; e < 5; e++)
 	{
 		printf("%d, ", a[e]);
 		a[e] = e - 1;
