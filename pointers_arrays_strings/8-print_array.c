@@ -10,13 +10,12 @@
 void print_array(int *a, int n)
 {
 	int e;
-
 	for (n = 0; a[n] < 5; n++)
 	{
 		a[n] = n + 100;
 	}
 	for (e = 0; e < 5; e++)
 	{
-		printf("array[%d] = %d;\n", a[n], e);
+		printf("%d, ", a[e]);
 	}
 }
