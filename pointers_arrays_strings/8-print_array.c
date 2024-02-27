@@ -23,6 +23,6 @@ void print_array(int *a, int n)
 		{
 			printf(", ");
 		}
-		a[e] = e - 1;
+		//a[e] = e - 1;
 	}
 }
