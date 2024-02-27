@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 
 	for (n = 0; a[n] < 5; n++)
 	{
-		a[n] = n + 100;
+		a[n] = n;
 	}
 	if (n % 2 == 1)
 	{n = n + 1; }
