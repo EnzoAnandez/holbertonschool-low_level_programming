@@ -10,6 +10,7 @@
 void print_array(int *a, int n)
 {
 	int e;
+
 	for (n = 0; a[n] < 5; n++)
 	{
 		a[n] = n + 100;
