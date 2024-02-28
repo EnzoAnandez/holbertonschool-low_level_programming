@@ -12,31 +12,22 @@ int _atoi(char *s)
 {
 	int n = 0;
 	int e = 1;
-	int l;
+	int l = 0;
 
-	if (s[0] == '-')
+	for (; s[l] == ' ' || (s[l] >= 9 && s[l] <= 13); l++)
+	{}
+	if (s[l] == '-')
 	{
 		e = -1;
-		l = 1;
+		l++;
 	}
-	else if (s[0] == '+')
+	else if (s[l] == '+')
 	{
-		l = 1;
+		l++;
 	}
-	else
+	for (; s[l] >= '0' && s[l] <= '9'; l++)
 	{
-		l = 0;
-	}
-	for (l = l; s[l] != '\0'; l++)
-	{
-		if (s[l] >= '0' && s[l] <= '9')
-		{
-			n = n * 10 + (s[l] - '0');
-		}
-		else
-		{
-			break;
-		}
+		n = n * 10 + (s[l] - '0');
 	}
 	return (e * n);
 }
