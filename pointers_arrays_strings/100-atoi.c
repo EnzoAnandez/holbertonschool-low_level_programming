@@ -11,14 +11,31 @@ int _atoi(char *s)
 {
 	int n = 0;
 	int e = 1;
-	int l = 0;
+	int l;
 
 	if (s[0] == '-')
 	{
 		e = -1;
-		l++;
+		l = 1;
+	}
+	else if (s[0] == '+')
+	{
+		l = 1;
+	}
+	else
+	{
+		l = 0;
 	}
 	for (; s[l] != '\0'; l++)
-		n = n * 10 + s[l] - '0';
+	{
+		if (s[l] >= '0' && s[l] <= '9')
+		{
+			n = n * 10 + (s[l] - '0');
+		}
+		else
+		{
+			break;
+		}
+	}
 	return (e * n);
 }
