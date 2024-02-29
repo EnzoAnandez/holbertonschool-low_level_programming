@@ -19,4 +19,10 @@ char *_strcat(char *dest, char *src)
 	{
 	}
 	return (src);
+	for (e = 0; dest[e] != '\0'; e++)
+	{
+	}
+	for (a = 0; src[a] != '\0'; a++)
+	{
+	}
 }
