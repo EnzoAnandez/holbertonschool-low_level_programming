@@ -10,11 +10,16 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int n, e;
+	int e, a;
 
-	for (n = 0; dest[n] != '\0'; e++)
+	for (e = 0; dest[e] != '\0'; e++)
 	{
-		printf("%d", n);
+		_putchar(dest[e]);
 	}
-	return (dest);
+	for (a = 0; src[a] != '\0'; a++)
+	{
+		_putchar(src[a]);
+	}
+	_putchar('\n');
+	return (0);
 }
