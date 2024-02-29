@@ -22,6 +22,9 @@ char *_strcat(char *dest, char *src)
 	{
 		_putchar(src[a]);
 	}
+	{
+		_putchar(dest[e]);
+	}
 	for (a = 0; src[a] != '\0'; a++)
 	{
 		_putchar(src[a]);
