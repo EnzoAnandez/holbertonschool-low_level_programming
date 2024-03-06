@@ -18,7 +18,7 @@ char *leet(char *s)
 		{
 			if (s[a] == leet[e] || s[a] == leet[e + 1])
 			{
-				s[a] = '0' + (e / 2);
+				s[a] = '0' + e / 2;
 				break;
 			}
 		}
