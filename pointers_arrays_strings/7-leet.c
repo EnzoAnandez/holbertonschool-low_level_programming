@@ -9,14 +9,14 @@
 
 char *leet(char *s)
 {
-	char leet[10] = {'O', 'o', 'L', 'l', 'E', 'e', 'A', 'a', 'T', 't'};
+	char leetMap[10] = {'O', 'o', 'L', 'l', 'E', 'e', 'A', 'a', 'T', 't'};
 	int a, e;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		for (e = 0; e < 10; e += 2)
 		{
-			if (s[a] == leet[e] || s[a] == leet[e + 1])
+			if (s[a] == leetMap[e] || s[a] == leetMap[e + 1])
 			{
 				s[a] = '0' + (e / 2) + 1;
 			}
