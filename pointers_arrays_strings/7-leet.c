@@ -9,16 +9,16 @@
 
 char *leet(char *s)
 {
-	char leet[10] = {'O', 'o', 'L', 'l', 'E', 'e', 'A', 'a', 'T', 't'};
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 	int a, e;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
-		for (e = 0; e < 10; e += 2)
-		{
-			if (s[a] == leet[e] || s[a] == leet[e + 1])
+		for (e = 0; e <= 7; e++)
 			{
-				s[a] = '0' + e / 2;
+			if (s[a] == leet[e] || (s[a] - 32 == leet[e] && s[a] >= 'a' && s[a] <= 'z'))
+			{
+				s[a] = e + '0';
 				break;
 			}
 		}
